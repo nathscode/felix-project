@@ -1,9 +1,11 @@
+import Link from "next/link";
+
 export const Footer = () => {
 	return (
 		<div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
 			<div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
 				<div className="sm:col-span-2">
-					<a
+					<Link
 						href="/"
 						aria-label="Go home"
 						title="Company"
@@ -12,7 +14,7 @@ export const Footer = () => {
 						<span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
 							FUPREPROPA
 						</span>
-					</a>
+					</Link>
 					<div className="mt-6 lg:max-w-sm">
 						<p className="text-sm text-gray-800">
 							Discover your dream home and property with ease.
@@ -25,25 +27,25 @@ export const Footer = () => {
 					</p>
 					<div className="flex">
 						<p className="mr-1 text-gray-800">Phone:</p>
-						<a
+						<Link
 							href="tel:+2340901234393"
 							aria-label="Our phone"
 							title="Our phone"
 							className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
 						>
 							+2340901234393
-						</a>
+						</Link>
 					</div>
 					<div className="flex">
 						<p className="mr-1 text-gray-800">Email:</p>
-						<a
+						<Link
 							href="mailto:info@fuprepropa.com"
 							aria-label="Our email"
 							title="Our email"
 							className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
 						>
 							info@fupropropa.com
-						</a>
+						</Link>
 					</div>
 					<div className="flex">
 						<p className="mr-1 text-gray-800">Address:</p>
@@ -96,28 +98,28 @@ export const Footer = () => {
 				</p>
 				<ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
 					<li>
-						<a
+						<Link
 							href="/"
 							className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
 						>
 							F.A.Q
-						</a>
+						</Link>
 					</li>
 					<li>
-						<a
+						<Link
 							href="/"
 							className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
 						>
 							Privacy Policy
-						</a>
+						</Link>
 					</li>
 					<li>
-						<a
+						<Link
 							href="/"
 							className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
 						>
 							Terms &amp; Conditions
-						</a>
+						</Link>
 					</li>
 				</ul>
 			</div>

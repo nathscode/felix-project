@@ -4,9 +4,7 @@ import { Heading } from "./heading";
 import ListingCard from "./card/ListingCard";
 import { properties } from "../data/properties";
 
-type Props = {};
-
-const Properties = (props: Props) => {
+const Properties = () => {
 	return (
 		<section className="relative py-10 sm:py-20 bg-white">
 			<MaxWidthWrapper className="flex flex-col items-start gap-16 sm:gap-20">

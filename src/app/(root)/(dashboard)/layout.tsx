@@ -1,5 +1,3 @@
-import { redirect } from "next/navigation";
-
 const MainLayout = async ({ children }: { children: React.ReactNode }) => {
 	return (
 		<div className="flex max-lg:flex-col text-grey-1">

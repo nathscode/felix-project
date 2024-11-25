@@ -1,11 +1,10 @@
-import Image from "next/image";
-import React from "react";
-import { Button } from "../ui/button";
-import { Bed, Dot, Fence, Heart, MapPin } from "lucide-react";
 import { formatCurrency } from "@/lib/utils";
+import { Dot, Heart } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
-import placeholderImage from "/public/images/placeholder-image.png";
 import { propertiesTypes } from "../../data/properties";
+import { Button } from "../ui/button";
+import placeholderImage from "/public/images/placeholder-image.png";
 
 type Props = {
 	property: propertiesTypes;
