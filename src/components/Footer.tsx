@@ -12,7 +12,7 @@ export const Footer = () => {
 						className="inline-flex items-center"
 					>
 						<span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-							FUPREPROPA
+							F.O SUITES
 						</span>
 					</Link>
 					<div className="mt-6 lg:max-w-sm">
@@ -28,23 +28,23 @@ export const Footer = () => {
 					<div className="flex">
 						<p className="mr-1 text-gray-800">Phone:</p>
 						<Link
-							href="tel:+2340901234393"
+							href="tel:+2349014418133"
 							aria-label="Our phone"
 							title="Our phone"
 							className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
 						>
-							+2340901234393
+							+2349014418133
 						</Link>
 					</div>
 					<div className="flex">
 						<p className="mr-1 text-gray-800">Email:</p>
 						<Link
-							href="mailto:info@fuprepropa.com"
+							href="mailto:F.Osuites@gmail.com"
 							aria-label="Our email"
 							title="Our email"
-							className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+							className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800 lowercase"
 						>
-							info@fupropropa.com
+							F.Osuites@gmail.com
 						</Link>
 					</div>
 					<div className="flex">
@@ -54,7 +54,7 @@ export const Footer = () => {
 							title="Our address"
 							className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
 						>
-							Federal Junction, Effurun, <br />
+							Opposite white hotel, Effurun, <br />
 							Delta State Nigeria
 						</span>
 					</div>

@@ -12,12 +12,12 @@ export const Navbar = () => {
 				<div className="relative flex items-center justify-between">
 					<Link
 						href="/"
-						aria-label="FuprePropa"
-						title="FuprePropa"
+						aria-label="F.O SUITES"
+						title="F.O SUITES"
 						className="inline-flex items-center"
 					>
 						<span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
-							FuprePropa
+							F.O SUITES
 						</span>
 					</Link>
 					<ul className=" items-center hidden space-x-8 lg:flex">
