@@ -5,11 +5,11 @@ import ClickOutside from "../ClickOutside";
 
 const DropdownNotification = () => {
 	const [dropdownOpen, setDropdownOpen] = useState(false);
-	const [notifying, setNotifying] = useState(false);
+	const [notifying, setNotifying] = useState(true);
 
 	return (
 		<ClickOutside onClick={() => setDropdownOpen(false)} className="relative">
-			<li>
+			<div>
 				<Link
 					onClick={() => {
 						setNotifying(false);
@@ -66,7 +66,7 @@ const DropdownNotification = () => {
 						</ul>
 					</div>
 				)}
-			</li>
+			</div>
 		</ClickOutside>
 	);
 };

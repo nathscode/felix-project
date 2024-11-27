@@ -106,12 +106,12 @@ export const Navbar = () => {
 										<div>
 											<a
 												href="/"
-												aria-label="Company"
-												title="Company"
+												aria-label="F.O SUITES"
+												title="F.O SUITES"
 												className="inline-flex items-center"
 											>
 												<span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-													FUPREPROPA
+													F.O SUITES
 												</span>
 											</a>
 										</div>

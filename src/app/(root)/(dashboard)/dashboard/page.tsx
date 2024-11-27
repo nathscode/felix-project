@@ -12,7 +12,7 @@ export default async function DashboardPage() {
 					<div className="justify-start">
 						<p className="font-bold text-2xl">Admin Dashboard</p>
 					</div>
-					<div className="justify-end">
+					<div className="justify-end mr-16">
 						<DropdownNotification />
 					</div>
 				</div>

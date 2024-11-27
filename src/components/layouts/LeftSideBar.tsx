@@ -13,7 +13,7 @@ const LeftSideBar = () => {
 	return (
 		<div className="h-screen left-0 top-0 sticky p-10 flex flex-col gap-16 bg-blue-2 shadow-xl max-lg:hidden">
 			<div className="flex flex-col">
-				<h1 className="text-2xl font-bold">Fupre</h1>
+				<h1 className="text-2xl font-bold">F.0 SUITES</h1>
 			</div>
 
 			<div className="flex flex-col gap-12">
