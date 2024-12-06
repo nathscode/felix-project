@@ -10,6 +10,8 @@ import {
 	getCoreRowModel,
 	useReactTable,
 	getPaginationRowModel,
+	getFacetedRowModel,
+	getFacetedUniqueValues,
 } from "@tanstack/react-table";
 
 import {
@@ -22,6 +24,7 @@ import {
 } from "@/components/ui/table";
 import { useState } from "react";
 import useMount from "@/hooks/use-mount";
+import { DataTableToolbar } from "./columns/data-table-toolbox";
 
 interface DataTableProps<TData, TValue> {
 	columns: ColumnDef<TData, TValue>[];
@@ -45,6 +48,8 @@ export function DataTable<TData, TValue>({
 		onColumnFiltersChange: setColumnFilters,
 		getPaginationRowModel: getPaginationRowModel(),
 		getFilteredRowModel: getFilteredRowModel(),
+		getFacetedRowModel: getFacetedRowModel(),
+		getFacetedUniqueValues: getFacetedUniqueValues(),
 		state: {
 			columnFilters,
 		},
@@ -53,7 +58,10 @@ export function DataTable<TData, TValue>({
 	if (!mount) return;
 
 	return (
-		<div className="py-5">
+		<div className="space-y-5">
+			<div className="my-4">
+				<DataTableToolbar table={table} />
+			</div>
 			<div className="rounded-md border">
 				<Table>
 					<TableHeader>

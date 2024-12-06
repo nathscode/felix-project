@@ -7,16 +7,15 @@ import Link from "next/link";
 
 import {
 	DropdownMenu,
-	DropdownMenuCheckboxItem,
 	DropdownMenuContent,
 	DropdownMenuItem,
 	DropdownMenuLabel,
 	DropdownMenuSeparator,
 	DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Button } from "../ui/button";
 import { MoreHorizontal } from "lucide-react";
 import { Badge } from "../ui/badge";
+import { Button } from "../ui/button";
 
 export const ReservationColumns: ColumnDef<Reservation>[] = [
 	{
